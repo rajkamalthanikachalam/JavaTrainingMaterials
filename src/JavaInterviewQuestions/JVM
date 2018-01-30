@@ -1,0 +1,55 @@
+JVM is divided into HEAP & STACK Memory
+
+Heap Memory
+***********
+-> Under Heap Memory, we have 
+		* Young Generation
+			1) Objects are stored here, for example "new Test()" will be stored [Test T1= new Test();] 
+			2) Minor Garbage collection will be performed here and run automatically
+			
+			Young generation further divided by Survivor memories(S0, s1,... Sn)
+				-> Once objects in young generation are full, it will be moved to survivor memory
+			
+		* Old Generation
+			1) Major Garbage Collection will happen here
+			2) Takes huge time to clean
+			3) Time out error are resultant of this
+			
+			Under Old generation, we have "Memory Pool"
+				-> Stores immutable objects
+				-> stores classes/Objects
+				-> Runtime by JVM memory manager
+			
+		* Permanent Generation
+			1) Meta data of class Method
+			2) Not part of heap memory
+			3) Generation during runtime
+			
+			Permanent Generation has "Method Area"
+				-> which stores, class structure
+				-> Static Variable
+				-> Constants
+				
+				Inside Method Area,we have "Run Time Constant Pool"
+					- which stores Static and constant Variable 	
+					
+@Overall :	1. Stores Object
+			2. JRE Classes
+			3. Garbage Collector runs on heap memory to remove/destroy the objects which doesn't have any references
+			For Eg:  Test T1 = new Test();
+					 T1= null();
+			 
+Stack Memory :
+*************
+	1) These are used to execute Threads
+	2) stores method Specific Values
+	3) stores local Variable (int i =0)
+	4) stores Object Reference, T1 (Test T1 = new Test();)
+	5) worked on basis of LIFO
+	
+	It has Method block
+	
+	method will called in this block and run sequentialy(one by one, next wmethod will wait until the method in 
+	method block get executed)
+	
+@ Overall: 1. Stack memory size is less compare to Heap memory
