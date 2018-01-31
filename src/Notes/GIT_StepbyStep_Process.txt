@@ -32,13 +32,23 @@ Also we have Git Hub Desktop
 we can create the repository and commit the the code through Git Hub Desktop
 we can clone our repository from Git to local 
 
-Also we can do with Eclispe through Git Perscpective
+Also we can do with Eclispe through Git Perspective
 
 Add Existing Git Repository to the view, clone, New Git Repository can be performed through Eclispe also
 Step 1 : Navigate to Project through Git Prespective
-Step 2 : in Normal Perscpective, right Click on project - Team - Share Project 
+Step 2 : in Normal Perspective, right Click on project - Team - Share Project 
 Step 3 : Complete the Git setting 
 Step 4 : Right click and navigate to team to see Push, pull options from eclispe itself
+
+Through Jenkins :
+
+Step 1 : Mention the GIT Repository path 
+Step 2 : Keep the Pom.xml to build
+
+For Html report : 
+
+use the script in "Script Console" to display the report in HTML report format
+System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")
 
 
 
