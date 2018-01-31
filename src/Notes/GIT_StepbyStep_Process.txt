@@ -1,0 +1,45 @@
+GIT PUSH(through command prompt)
+
+Step 1 : Create Git account 
+Step 2 : Create a repository(Set of path will be generated)
+Step 3 : Navigate to the project folder through Command prompt
+Step 4 : git init (intialize the connection)
+Step 5 : git status (Project files will be display in red color, whcih denote they are not commited)
+Step 6 : git add
+Step 7 : git status (project files will now display in green color)
+Step 8 : git commit -m "Give Proper Comment"
+Step 9 : git push origin master (now your cod will be available in Git)
+
+GIT PULL(through command prompt)
+
+Step 1 : Create a Folder and Navigate to it through command prompt
+Step 2 : git clone "Path of Project in Maven" (Code will be available in mentioned folder)
+
+To get update code from Git, when changes are made in Git(through command prompt)
+
+Step 1 : git push origin master
+
+To establish the Connection between your machine to Git repository
+
+Step 1 : Open setting and navigate to SSH Key in Git 
+Step 2 : Install Git Bash in your machine and type (ssh keygen -t rsa -C "User email id")
+Step 3 : Mention the path and give user name/password when prompted
+Step 4 : 2 file will be generated and open the .pub file, which is Public key and paste it in SSH Key field
+Step 5 : Click Ok, Connection established
+
+Also we have Git Hub Desktop 
+
+we can create the repository and commit the the code through Git Hub Desktop
+we can clone our repository from Git to local 
+
+Also we can do with Eclispe through Git Perscpective
+
+Add Existing Git Repository to the view, clone, New Git Repository can be performed through Eclispe also
+Step 1 : Navigate to Project through Git Prespective
+Step 2 : in Normal Perscpective, right Click on project - Team - Share Project 
+Step 3 : Complete the Git setting 
+Step 4 : Right click and navigate to team to see Push, pull options from eclispe itself
+
+
+
+
