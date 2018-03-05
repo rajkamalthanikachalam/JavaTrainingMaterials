@@ -12,6 +12,8 @@ public abstract class Abstract_Bank {
 	 * Must extend the abstract in child class
 	 * Must define the abstract method used in parent class 
 	 * 
+	 * Static, Non Static and Final variable are allowed
+	 * 
 	 */
 	
 	int bankcharge = 100;
