@@ -30,7 +30,6 @@ public class K_WrapperClasses {
 		int a = 200;
 		String b = String.valueOf(a);
 		System.out.println(a);
-		
 		return 0;	
 	}
 	

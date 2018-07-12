@@ -3,8 +3,6 @@
  */
 package JavaTraining;
 
-import java.util.Scanner;
-
 /**
  * @author Raj Kamal
  * This class will explain about the Looping
