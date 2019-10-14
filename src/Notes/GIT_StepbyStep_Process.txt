@@ -4,7 +4,7 @@ Step 1 : Create Git account
 Step 2 : Create a repository(Set of path will be generated)
 Step 3 : Navigate to the project folder through Command prompt
 Step 4 : git init (intialize the connection)
-Step 5 : git status (Project files will be display in red color, whcih denote they are not commited)
+Step 5 : git status (Project files will be display in red color, which denote, they are not commited)
 Step 6 : git add
 Step 7 : git status (project files will now display in green color)
 Step 8 : git commit -m "Give Proper Comment"
